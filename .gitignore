@@ -1,0 +1,10 @@
+# secrets and local data: NEVER commit these
+.env
+*.db
+outbox.jsonl
+.venv/
+__pycache__/
+.pytest_cache/
+subscriptions.json
+*.tmp
+data/
